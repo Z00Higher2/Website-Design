@@ -1,0 +1,13 @@
+#footer{
+    position: absolute; 
+    transform: translate(0px, 2700px);
+    width: 100%;
+}
+
+
+
+#container{
+    position: relative;
+    min-height: 145vh;
+
+}

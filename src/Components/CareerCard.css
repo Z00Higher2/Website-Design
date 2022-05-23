@@ -1,0 +1,15 @@
+.card{
+    width: 550px;
+    height: 450px;
+    background-color: rgba(36, 36, 36, 0.925);
+    color: white;
+    border: 1px solid #b6aeae;
+    padding: 10px;
+    transform: translate(750px, -1701px) 
+}
+
+.list-group-item{
+    background-color: rgba(36, 36, 36, 0.925);
+    color: white;
+
+}

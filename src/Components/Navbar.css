@@ -1,0 +1,24 @@
+h2{
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+color: black;
+}
+
+#Nav{
+    width:100%;
+}
+
+.nav-link{
+font-family: 'Odibee Sans';
+font-size: 20px;
+transform: translate(0px,-3px);
+font-weight: bold;
+}
+
+#search-bar{
+    transform: translate(600px,16px)
+}
+
+#search-btn{
+    transform: translate(850px, -23px)
+}

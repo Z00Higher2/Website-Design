@@ -1,0 +1,68 @@
+.all-images{
+    transform: translate(0px, 1000px);
+}
+
+#image1{
+    transform: translate(100px,0px);
+    width: 300px;
+    height: 200px;
+}
+
+#image2{
+    transform: translate(0px,0px);
+    width:  300px;
+    height: 200px;
+}
+
+#image3{
+    transform: translate(800px, 0px);
+    width:  300px;
+    height: 200px;
+}
+
+#image4{
+    transform: translate(-800px, 400px);
+    width:  300px;
+    height: 200px;
+}
+
+#image5{
+    transform: translate(-900px, 400px);
+    width:  300px;
+    height: 200px;
+}
+
+#image6{
+    transform: translate(-100px, 400px);
+    width: 300px;
+    height: 200px;
+}
+
+.line1{
+    transform: translate(150px, 1050px);
+
+
+} 
+
+.line2{
+    transform: translate(1050px, 1012px);
+
+    
+}
+.line3{
+    transform: translate(650px, 963px);
+
+    
+}
+.line4{
+    transform: translate(0px, 1000px);
+
+}
+.line5{
+    transform: translate(0px, 1000px);
+
+}
+.line6{
+    transform: translate(0px, 1000px);
+
+}
