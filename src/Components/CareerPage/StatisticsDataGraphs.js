@@ -1,6 +1,6 @@
 import React from 'react';
 import { VictoryBar, VictoryChart, VictoryScatter} from 'victory';
-import "./StatisticsDataGraphs.css"
+import "./css/StatisticsDataGraphs.css";
 
 
 const data = [
@@ -32,4 +32,4 @@ const data = [
   }
   
 
-export default Main
+export default Main;

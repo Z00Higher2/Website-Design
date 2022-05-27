@@ -1,5 +1,5 @@
 import React from 'react' 
-import './Image-Card.css'
+import '../../css/Image-Card.css'
 
 const Card  = () =>{
     return(
@@ -14,4 +14,4 @@ const Card  = () =>{
     )
 }
 
-export default Card
+export default Card;

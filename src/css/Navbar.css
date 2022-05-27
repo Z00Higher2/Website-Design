@@ -1,0 +1,43 @@
+h2{
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+color: black;
+}
+
+#Nav{
+    display: grid;
+    grid-template-columns: repeat(8, 800px);
+    grid-template-rows: repeat(1, 100px);
+    width:100%;
+}
+
+.nav-link{
+font-family: 'Odibee Sans';
+font-size: 20px;
+transform: translate(0px,-3px);
+font-weight: bold;
+}
+
+.Button[type=submit] {
+    background-color: #ffffff;
+    color: black;
+    padding: 12px 20px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    cursor: pointer;
+    transform: translate(820px, -25px);
+  }
+  
+  .Button[type=submit]:hover {
+    color:white;
+    background-color: #000000;
+  }
+  
+
+#search-bar{
+    width: 550px;
+    transform: translate(250px, 20px)
+    
+}
+

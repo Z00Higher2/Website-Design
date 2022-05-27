@@ -1,5 +1,5 @@
-import React from 'react'
-import './About.css'
+import React from 'react';
+import '../../css/About.css';
 
 const About = () =>{
     return(
@@ -84,15 +84,12 @@ const About = () =>{
         <h2>Sunita Khanailall</h2>
         <p class="title">Designer</p>
         <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>Sunitan@example.com</p>
+        <p>Sunita@example.com</p>
       </div>
     </div>
   </div>
-  
-  
-
         </div>
     )
 }
 
-export default About
+export default About;

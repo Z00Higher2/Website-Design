@@ -1,9 +1,10 @@
-import React from 'react'
-import './FlipCard.css'
+import React from 'react';
+import '../../css/FlipCard.css';
 
 const Flip = () =>{
     return(
         <div>
+             <div className="row row-cols-1 row-cols-md-2 g-4"></div>
         <div className="flip-card">
   <div className="flip-card-inner">
     <div className="flip-card-front">
@@ -71,4 +72,4 @@ const Flip = () =>{
     )
 }
 
-export default Flip
+export default Flip;

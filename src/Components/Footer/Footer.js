@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { SocialIcon } from 'react-social-icons';
-import './Footer.css'
+import '../../css/Footer.css';
 
 const Footer = () => {
    return(
@@ -168,7 +168,8 @@ const Footer = () => {
 </footer>
        </div>
        </body>
-   );
+       
+   )
 };
 
-export default Footer
+export default Footer;

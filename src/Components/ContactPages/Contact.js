@@ -1,6 +1,6 @@
 import React from 'react'
-import FAQ from './Components/FAQ'
-import './Contact.css'
+import FAQ from '../Navbar/FAQ'
+import '../../css/Contact.css'
 
 const Contact = () =>{
     return(
@@ -36,6 +36,6 @@ const Contact = () =>{
 
         </div>
     )
-}
+};
 
-export default Contact
+export default Contact;

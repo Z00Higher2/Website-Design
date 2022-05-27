@@ -1,5 +1,5 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import '../../css/Navbar.css';
 
 const Navbar = () =>{
     return(
@@ -19,7 +19,7 @@ const Navbar = () =>{
       </div>
       <form class="form-inline">
     <input className="form-control mr-sm-2" id="search-bar" type="search" placeholder="Search" aria-label="Search"/>
-    <button className="btn btn-outline-success my-2 my-sm-0" id= "search-btn" type="submit"> Search</button>
+     <input className="Button" type="submit" value="Search"/>
     </form>
     </div>
   </div>
@@ -28,4 +28,4 @@ const Navbar = () =>{
     )
 }
 
-export default Navbar
+export default Navbar;
