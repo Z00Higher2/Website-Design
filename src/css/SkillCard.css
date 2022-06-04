@@ -1,0 +1,54 @@
+#CARDS{
+    width: 600px;
+    height: 400px;
+    transform: translate(0px, 1200px);
+    background-color: black;
+    color: white;
+    }
+    
+    .Skill-Head{
+        display: grid;
+        transform: translate(500px, 1100px);
+        grid-template-columns: 600px ;
+    }
+    .Skill-Head2{
+        display:grid;
+        grid-template-columns: 600px ;
+        transform: translate(350px, 1100px);
+    
+    }
+    
+    #par2{
+        display: grid;
+        color: white;
+        font-family: 'Playfair Display', serif;  
+        padding-left: 520px;
+        padding-top: 100px;
+        grid-template-columns: 1000px ;
+        align-content: space-evenly;
+    
+    }
+    
+    
+    #head3{
+        display: grid;
+        padding-left: 650px;
+        padding-top: 150px;
+        color: white;
+        font-weight: bold;
+        grid-template-columns: 800px ;
+        font-family: 'Playfair Display', serif;  
+        font-size: 105px; 
+    }
+    
+    .Skills2{
+        transform: translate(650px, -400px);
+    }
+    
+    .Skills3{
+        transform: translate();
+    }
+    
+    .Skills4{
+        transform: translate(650px, -400px);
+    }

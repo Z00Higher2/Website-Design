@@ -31,9 +31,9 @@
     display: grid;
     color: white;
     font-family: 'Playfair Display', serif;  
-    padding-left: 650px;
+    padding-left: 490px;
     padding-top: 100px;
-    grid-template-columns: 500px ;
+    grid-template-columns: 1000px ;
     align-content: space-evenly;
 
 }

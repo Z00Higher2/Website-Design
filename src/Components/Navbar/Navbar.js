@@ -13,14 +13,10 @@ const Navbar = () =>{
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
         <a className="nav-link" aria-current="page" href="/">Home</a>
-        <a className="nav-link" href="/outlook">Outlook</a>
-        <a className="nav-link" href="/contact">Contact</a>
+        <a className="nav-link" href="/outlook">Job Outlook</a>
+        <a className="nav-link" href="/skill">Skills</a>
         <a className="nav-link" href="/about">About</a>
       </div>
-      <form class="form-inline">
-    <input className="form-control mr-sm-2" id="search-bar" type="search" placeholder="Search" aria-label="Search"/>
-     <input className="Button" type="submit" value="Search"/>
-    </form>
     </div>
   </div>
 </nav>

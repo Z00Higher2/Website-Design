@@ -2,49 +2,49 @@
     position: absolute;
     float: left;
     width: 33.3%;
-    transform: translate(-600px,1900px);
+    transform: translate(100px,100px);
   }
 
   .column2 {
     position: absolute;
     float: left;
     width: 33.3%;
-    transform: translate(100px,1900px);
+    transform: translate(100px,300px);
   }
 
   .column3 {
     position: absolute;
     float: left;
     width: 33.3%;
-    transform: translate(-600px,2400px);
+    transform: translate(100px,600px);
   }
  
   .column4 {
     position: absolute;
     float: left;
     width: 33.3%;
-    transform: translate(100px,2400px);
+    transform: translate(100px,900px);
   }
 
   .column5 {
     position: absolute;
     float: left;
     width: 33.3%;
-    transform: translate(-600px,2900px);
+    transform: translate(100px,1100px);
   }
 
   .column6 {
     position: absolute;
     float: left;
     width: 33.3%;
-    transform: translate(100px,2900px);
+    transform: translate(100px, 1300px);
   }
 
   .column7 {
     position: absolute;
     float: left;
     width: 33.3%;
-    transform: translate(-600px,3400px);
+    transform: translate(100px,1500px);
   }
 
   
@@ -53,8 +53,10 @@
       
   }
   
+
+
   .container{
-      color: white;
+      color: rgb(255, 255, 255);
   }
   .about-section {
     font-family: 'Playfair Display', serif;  

@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../css/Carousel.css'
 
 class BootstrapCarouselComponent extends React.Component {
 
@@ -10,10 +11,10 @@ class BootstrapCarouselComponent extends React.Component {
                 <div className='container-fluid' >
                     <div className="row">
                         <div className="col-sm-12">
-                            <h3>React Bootstrap Carousel</h3>
+                            <h3>Sign up for Internships</h3>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row" id="slides">
                         <div className="col-10">
                             <Carousel>
 

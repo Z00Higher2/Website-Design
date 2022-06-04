@@ -2,7 +2,8 @@ body{
     background-color: rgb(192, 192, 192);
 }
 .Text{
-    transform: translate(0px, 1940px);
+    transform: translate(0px, 980px);
+    text-align: center;
 }
 
 

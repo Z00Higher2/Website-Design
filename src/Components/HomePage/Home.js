@@ -12,8 +12,7 @@ const Home = () =>{
                     <strong>Welcome to</strong>
                 </h2>
                 <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-4 display-2" id="head1">TECH FUTURE</h1>
-                <p class="mbr-text mbr-semibold mbr-fonts-style mb-4 display-7" id="par1">where we can help you look out for your career</p>
-       
+                <h1 class="mbr-text mbr-semibold mbr-fonts-style mb-4 display-7" id="par1">Discover your Career in Computer Science!</h1>
     </div>           
              <h1 className="another-head">Experience a New World of Technology</h1>
             <Card/>

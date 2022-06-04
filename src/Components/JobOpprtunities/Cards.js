@@ -1,8 +1,9 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+import '../../css/Card.css'
 function Card1() {
   return (
-      <div className="row row-cols-1 row-cols-md-2 g-4">
+      <div className="row row-cols-1 row-cols-md-2 g-4" id="Cards">
   <div className="col">
     <div className="card">
       <img src="https://www.captechu.edu/sites/default/files/How%20does%20your%20computer%20science%20degree%20help%20you%20with%20cybersecurity.jpg" className="card-img-top" alt="..."/>
