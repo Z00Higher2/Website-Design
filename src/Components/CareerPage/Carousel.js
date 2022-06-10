@@ -8,10 +8,10 @@ class BootstrapCarouselComponent extends React.Component {
     render() {
         return (
             <div>
-                <div className='container-fluid' >
+                <div className='container-fluid' id="Caraousel">
                     <div className="row">
-                        <div className="col-sm-12">
-                            <h3>Sign up for Internships</h3>
+                        <div className="col-sm-12" id="col-state">
+                            <h1>Careers Available to Explore</h1>
                         </div>
                     </div>
                     <div className="row" id="slides">

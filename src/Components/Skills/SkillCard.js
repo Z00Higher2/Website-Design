@@ -11,14 +11,14 @@ const Skills = () => {
                 <h1 class="mbr-text mbr-semibold mbr-fonts-style mb-4 display-7" id="par2">Required As a Computer Scientist</h1>
                
     </div>       
-    <h1 className="Skill-Head">Hard Skill vs Soft Skill</h1>
+    <h1 className="Skill-Head">Technical Skills vs Soft Skills</h1>
         
         <li className="cards-item fourth">
         <div className="Skills1">
         <div className="card" id="CARDS">
         <div className="card-container1">
-       <div className="card-title"><h1>Hard Skills </h1></div>
-       <p className="card-text description">“Hard skills are the specific abilities you use to succeed in your daily job. When it comes to IT, a lot of these skills are technical in nature. They’re important for computer science candidates to list on their résumés. Many of the skills below are ones you learn as a WGU student.”</p>
+       <div className="card-title"><h1>Technical Skills</h1></div>
+       <p className="card-text description">"Technical skills are the specific abilities you use to succeed in your daily job. When it comes to IT, a lot of these skills are technical in nature. They’re important for computer science candidates to list on their résumés. Many of the skills below are ones you learn as a WGU student.”</p>
       </div>
       </div>
       </div>
@@ -30,7 +30,7 @@ const Skills = () => {
       </div>
       </div>
       </div>
-      <h1 className="Skill-Head2">How are they both being Utilized</h1>
+      <h1 className="Skill-Head2">How are they both being Utilized?</h1>
       <div className="Skills3">
       <div className="card" id="CARDS">
         <div className="card-container3">
@@ -51,8 +51,8 @@ const Skills = () => {
       <div className="Skills4">
       <div className="card" id="CARDS">
         <div className="card-container4">
-       <div className="card-title"><h1>Hard Skills Utility</h1></div>
-       <p className="card-text description">Some of these hard skills that can be very useful and vital for many projects are:
+       <div className="card-title"><h1>Technical Skills Utility</h1></div>
+       <p className="card-text description">Some of these technical skills that can be very useful and vital for many projects are:
        <li>Computer and Technology Skills:</li>
        <li>Data Analysis:</li>
        <li>Software Development:</li>

@@ -13,23 +13,12 @@ const Footer = () => {
    
     <section className="mb-4">
       
-      <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i className="fab fa-facebook-f"><SocialIcon url="https://facebook.com" /></i
-      ></a>
-
-      
-      <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i className="fab fa-twitter"><SocialIcon url="https://twitter.com"/></i
-      ></a>
+    
+    
 
      
       <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
         ><i className="fab fa-google"><SocialIcon url="https://google.com"/></i
-      ></a>
-
-     
-      <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i className="fab fa-instagram"><SocialIcon url="https://instagram.com"/></i
       ></a>
 
      
@@ -41,12 +30,7 @@ const Footer = () => {
         ><i className="fab fa-github"><SocialIcon url="https://github.com"/></i
       ></a>
 
-      <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i className="fab fa-snapchat"><SocialIcon url="https://snapchat.com"/></i
-      ></a>
-      <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i className="fab fa-discord"><SocialIcon url="https://discord.com"/></i
-      ></a>
+    
     </section>
 
     <section className="">
@@ -74,91 +58,7 @@ const Footer = () => {
       </form>
     </section>
 
-    <section className="mb-4">
-      <p>
-       Hi there 
-      </p>
-    </section>
-
-    <section className="">
-      <div className="row">
-        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 className="text-uppercase">Links</h5>
-
-          <ul className="list-unstyled mb-0">
-            <li>
-              <a href="#!" className="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 className="text-uppercase">Links</h5>
-
-          <ul className="list-unstyled mb-0">
-            <li>
-              <a href="#!" className="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 className="text-uppercase">Links</h5>
-
-          <ul className="list-unstyled mb-0">
-            <li>
-              <a href="#!" className="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 className="text-uppercase">Links</h5>
-
-          <ul className="list-unstyled mb-0">
-            <li>
-              <a href="#!" className="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" className="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    
   </div>
 
   <div className="text-center p-3" style-prop-object="background-color: rgba(0, 0, 0, 0.2)">

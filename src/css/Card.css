@@ -1,7 +1,27 @@
-#Cards{
-    width: 1500px;
-    transform: translate(0px, 500px);
-    margin-top: -2000px;
-    margin-bottom: -1000px;
+
+.cards{
+    display: grid;
+    transform: translate(560px, 875px);
+    background-color: rgba(36, 36, 36, 0.925);
+    color: white;
+    border: 1px solid #b6aeae;
+    padding: 10px;
+}
+
+#Cards1, #Cards2, #Cards3, #Cards4, #Cards5, #Cards6, #Cards7, #Cards8{
+     background-color: rgba(36, 36, 36, 0.925);
+     width: 740px;
+     height: 700px;
+     color: white;
+}
+
+#CARDSS{
+    margin-top: -1500px;
+    margin-bottom: -1300px;
+}
+
+.list-group-item{
+    background-color: rgba(36, 36, 36, 0.925);
+    color: white;
 
 }

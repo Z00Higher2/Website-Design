@@ -52,3 +52,7 @@
     .Skills4{
         transform: translate(650px, -400px);
     }
+
+    .card{
+        text-align: center;
+    }

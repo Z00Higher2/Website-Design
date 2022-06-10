@@ -14,15 +14,15 @@ const Home = () =>{
                 <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-4 display-2" id="head1">TECH FUTURE</h1>
                 <h1 class="mbr-text mbr-semibold mbr-fonts-style mb-4 display-7" id="par1">Discover your Career in Computer Science!</h1>
     </div>           
-             <h1 className="another-head">Experience a New World of Technology</h1>
+             <h1 className="another-head"> Undergo many Field of Studies </h1>
             <Card/>
             <div className="all-lines">
             <p className="line1">You can change the world</p>
             <p className="line2">With Over Thousands of Jobs</p>
-            <p className="line3">Be Creative</p>
+            <p className="line3">Create Websites</p>
             <p className="line4">Code many Languages</p>
-            <p className="line5">Build a New Technology</p>
-            <p className="line6">Secure many sites</p>
+            <p className="line5">Build many Hardwares</p>
+            <p className="line6">Secure many Websites</p>
             </div>
 
             <h1 className="intro"> Looking for Jobs?</h1>

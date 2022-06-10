@@ -25,13 +25,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, auto));
     grid-template-rows: repeat(auto-fill, minmax(100px, auto));
+    text-align: center;
 }
 
 #par1{
     display: grid;
     color: white;
     font-family: 'Playfair Display', serif;  
-    padding-left: 490px;
+    padding-left: 450px;
     padding-top: 100px;
     grid-template-columns: 1000px ;
     align-content: space-evenly;
@@ -52,7 +53,7 @@
 }
 #head1{
     display: grid;
-    padding-left: 450px;
+    padding-left: 590px;
     padding-top: 150px;
     color: white;
     font-weight: bold;
@@ -67,6 +68,7 @@
     grid-template-columns: repeat(3, 300px);
     align-content: space-evenly;
     justify-content: center;
+    
 
 }
 
@@ -81,10 +83,16 @@
 }
 
 .line3{
-    padding-left: 190px;
+    padding-left: 170px;    
 }
 .line1 , .line2 , .line3{
 grid-row: 1 / span 3;
+}
+.line2{
+    transform: translate(-15px,0px);
+}
+.line1{
+    transform: translate(-50px,0px);
 }
 
 .line4 , .line5 , .line6{
@@ -110,7 +118,7 @@ grid-row: 1 / span 3;
     grid-row: 2;
     grid-column: 9;
     width: 200px;
-    height: -200px;
-    transform: translate(-70px, 2400px);
+    height: 60px;
+    transform: translate(-20px, 2300px);
 
 }

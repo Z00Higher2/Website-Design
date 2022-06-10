@@ -1,7 +1,13 @@
 #slides{
-transform: translate(0px, 200px);
-width: 1500px;
-margin-bottom: -500px;
+transform: translate(200px, 100px);
+align-content: center;
+width: 1300px;
+margin-bottom: -430px;
 
-
+}
+#col-state{
+    text-align: center;
+}
+#Caraousel{
+    margin-right: 150px;
 }

@@ -13,7 +13,7 @@ const Navbar = () =>{
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
         <a className="nav-link" aria-current="page" href="/">Home</a>
-        <a className="nav-link" href="/outlook">Job Outlook</a>
+        <a className="nav-link" href="/outlook">Careers</a>
         <a className="nav-link" href="/skill">Skills</a>
         <a className="nav-link" href="/about">About</a>
       </div>

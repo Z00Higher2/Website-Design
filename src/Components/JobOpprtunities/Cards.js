@@ -3,9 +3,9 @@ import React from 'react';
 import '../../css/Card.css'
 function Card1() {
   return (
-      <div className="row row-cols-1 row-cols-md-2 g-4" id="Cards">
+      <div className="row row-cols-1 row-cols-md-2 g-4"  id="CARDSS">
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards1">
       <img src="https://www.captechu.edu/sites/default/files/How%20does%20your%20computer%20science%20degree%20help%20you%20with%20cybersecurity.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Computer Science for Cyber Security</h5>
@@ -15,7 +15,7 @@ function Card1() {
     </div>
   </div>
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards2">
       <img src="https://www.embitel.com/wp-content/uploads/Picture3.png" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Software/Hardware Development</h5>
@@ -25,7 +25,7 @@ function Card1() {
     </div>
   </div>
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards3">
       <img src="https://www.jotform.com/blog/wp-content/uploads/2008/07/photo-1505685296765-3a2736de412f.jpeg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title"> CSS</h5>
@@ -35,7 +35,7 @@ function Card1() {
     </div>
   </div>
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards4">
       <img src="https://umanitoba.ca/explore/sites/explore/files/styles/21x9_1100w/public/2021-01/bachelor-science-electrical-engineering.jpg?itok=CMPsba94" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">CS/Computer Science Electrical Engineering</h5>
@@ -45,7 +45,7 @@ function Card1() {
     </div>
   </div>
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards5">
       <img src="https://i-hls.com/wp-content/uploads/2018/12/cybersecurity-1.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Cybersecurity and Software development</h5>
@@ -56,7 +56,7 @@ function Card1() {
     </div>
   </div>
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards6">
       <img src="https://1xqdqy285sk7212bfiejcprr-wpengine.netdna-ssl.com/wp-content/uploads/2017/12/Web-Development-Company-USA.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Web Development</h5>
@@ -66,7 +66,7 @@ function Card1() {
     </div>
   </div>
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards7">
       <img src="https://www.herzing.edu/sites/default/files/styles/fp_960_480/public/2020-09/how-to-become-software-engineer.jpg.webp?itok=uuamJN8l" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Software Engeneering</h5>
@@ -76,7 +76,7 @@ function Card1() {
     </div>
   </div>
   <div className="col">
-    <div className="card">
+    <div className="card" id="Cards8">
       <img src="https://miro.medium.com/max/1400/1*HLGtY6O2vUHqIyEbWdmBgA.jpeg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Programing Languages</h5>

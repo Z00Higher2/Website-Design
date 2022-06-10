@@ -9,7 +9,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">More Information</h5>
     <p class="card-text">Learn more about computer hardware engineers by visiting additional resources, including O*NET, a source on key characteristics of workers and occupations.</p>
-    <a href="https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm" class="btn btn-primary">Go somewhere</a>
+    <a href="https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 <div class="cards">
@@ -17,7 +17,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">More Information</h5>
     <p class="card-text">Learn more about computer programmers by visiting additional resources, including O*NET, a source on key characteristics of workers and occupations.</p>
-    <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm" class="btn btn-primary">Go somewhere</a>
+    <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-programmers.htm" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 <div class="cards">
@@ -25,7 +25,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">More Information</h5>
     <p class="card-text">Learn more about network and computer systems administrators by visiting additional resources, including O*NET, a source on key characteristics of workers and occupations.</p>
-    <a href="https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm" class="btn btn-primary">Go somewhere</a>
+    <a href="https://www.bls.gov/ooh/computer-and-information-technology/network-and-computer-systems-administrators.htm" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 <div class="cards">
@@ -33,7 +33,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">More Information</h5>
     <p class="card-text">Learn more about computer support specialists by visiting additional resources, including O*NET, a source on key characteristics of workers and occupations.</p>
-    <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm" class="btn btn-primary">Go somewhere</a>
+    <a href="https://www.bls.gov/ooh/computer-and-information-technology/computer-support-specialists.htm" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 <div class="cards">
@@ -41,7 +41,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">More Information</h5>
     <p class="card-text">Learn more about software developers, quality assurance analysts, and testers by visiting additional resources, including O*NET, a source on key characteristics of workers and occupations.</p>
-    <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" class="btn btn-primary">Go somewhere</a>
+    <a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 <div class="cards">
@@ -49,7 +49,7 @@ return(
   <div class="card-body">
     <h5 class="card-title">More Information</h5>
     <p class="card-text">Learn more about information security analysts by visiting additional resources, including O*NET, a source on key characteristics of workers and occupations.</p>
-    <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm" class="btn btn-primary">Go somewhere</a>
+    <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm" class="btn btn-primary">Learn More</a>
   </div>
 </div>
 
