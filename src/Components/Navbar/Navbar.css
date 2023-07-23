@@ -1,0 +1,118 @@
+.Nav{
+    margin-top:0;
+    padding:0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:#ffffff;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 20px;
+    transition:0.5s;
+  }
+  
+  ul li a{
+    display: inline-block;
+    position: relative;
+    text-decoration:none;
+    padding-top: 53px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    transition:0.5s;
+  }
+  
+  ul:hover li a{
+    transform:scale(1);
+    opacity:0.2;
+  }
+  
+  ul li a:hover{
+    transform:scale(1);
+    opacity:1;
+    text-decoration:none;
+    color:rgb(54, 54, 54);
+  }
+  
+  ul li a:before{
+    content:'';
+    position:relative;
+    width:100%;
+    height:100%;
+    transition:0.5s;
+    transform-origin:right;
+    transform:scaleX(0);
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.5s;
+    transform-origin:left;
+    transform:scaleX(1);
+  }
+
+  ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #030303;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+  .button {
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-top: 53px;
+    width: 100px;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 1;
+  }

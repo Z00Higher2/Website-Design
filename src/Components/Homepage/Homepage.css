@@ -1,0 +1,306 @@
+
+
+
+.Header1{
+    background-image: url("../Images/Desing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   margin-top: 5vh;
+   position: relative;
+   text-align: left;
+   color: rgb(0, 0, 0);
+   display: block;
+   height: 100vh;
+   border: solid;
+   border-color: rgb(192, 192, 192);
+   justify-content: center;
+   width: 100%;
+   background-color: rgb(192, 192, 192);
+   padding-left: 35%;
+   box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75);
+}
+
+.Heading1-1{
+    position: absolute;
+    bottom: 400px;
+    left: 200px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: bolder;    
+
+}
+
+
+h1, h2, p, div{
+    font-family: 'Times New Roman';
+
+}
+
+.all-heads{
+    background-image: url("../Images/create-music-streaming-app-like-Spotify.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+   border: solid;
+   border-color: rgb(87, 87, 87);
+   width: 100%;
+   background-color: rgb(87, 87, 87);
+   height: 80vh;
+   box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.75);   
+}
+
+.img1{
+    
+    height:955px;
+    width: 1865px;
+    transform: translate(-650px, 15px);;
+    border-radius: 100px;
+    box-shadow: -1px 1px 5px 8px rgba(0,0,0,0.75)
+}
+.Header2{
+
+    background-image: url("../Images/dribbble.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   text-align: left;
+   border: solid;
+   border-color: rgb(44, 44, 44);
+   color: white;
+   display: block;
+   height: 140vh;
+   position: absolute;
+   justify-content: right;
+   left: 0;
+   width: 100%;
+   background-color: rgb(44, 44, 44);
+   box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75);
+}
+
+.Header2 h1{
+    text-align: center;
+}
+
+.all-header2-elem {
+    display: flex;
+    padding-left: 6%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+}
+
+.line-header2{
+    display: flex;
+   
+}
+
+.cards{
+    box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75);
+
+}
+.Header3{
+    background-image: url("../Images/Netflix-Prime-Video-Apple-TV-Hulu-Disney-Logos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   margin-top: 100vh;
+   text-align: center;
+   color: white;
+   display: block;
+   height: 80vh;
+   position: absolute;
+   justify-content: right;
+   left: 0;
+   width: 100%;
+   border: solid;
+   border-color: rgb(29, 29, 29);
+   background-color: rgb(29, 29, 29);
+   box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75);
+    
+}
+
+.Header3 p{
+   padding-top: 150px;    
+}
+
+.car{
+    box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75);
+    transform: translate(225px,25px);
+}
+
+.Header4{
+    background-image: url("../Images/socialmedia-marketing-wayup-management-results2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 163vh;
+    text-align: center;
+    color: white;
+    display: block;
+    height: 80vh;
+    position: absolute;
+    justify-content: right;
+    left: 0;
+    width: 100%;
+    border: solid;
+    border-color: rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
+    box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75); 
+     
+
+}
+
+.Header5{
+    background-image: url("../Images/Screenshot\ 2023-07-23\ 105228.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin-top: 223vh;
+    text-align: center;
+    color: white;
+    display: block;
+    height: 80vh;
+    position: absolute;
+    justify-content: right;
+    left: 0;
+    width: 100%;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75); 
+     
+
+}
+
+
+.par-1{
+    font-size: large;
+    color: black;
+}
+
+.body-1{
+    background-color: rgb(37, 53, 81);
+}
+
+.button2 {
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    color: #fcf7f7;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '005f';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    color: black;
+    padding: 7px;
+    transition: 0.5s;
+  }
+
+  .button2:hover {
+    background-color: white;
+    border:solid;
+    border-color: black;
+    box-shadow: 5px 10px black;
+    transition: 0.5s;
+  }
+
+
+
+  h1, h2, p ,span{
+    animation: 2s anim-lineUp ease-out;
+  }
+
+
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  .logos{
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .button1 {
+    background-color: rgb(0, 0, 0);
+    border: solid;
+    border-color: white;
+    border-radius: 50px;
+    color: #fcf7f7;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+  
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button1 span:after {
+    content: '005f';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover span {
+    color: black;
+    padding: 7px;
+    transition: 0.5s;
+  }
+
+  .button1:hover {
+    background-color: white;
+    border:solid;
+    border-color: black;
+    box-shadow: 5px 10px black;
+    transition: 0.5s;
+  }
+

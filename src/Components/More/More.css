@@ -1,0 +1,13 @@
+.Header10{
+    margin-top: 5vh;
+    text-align: left;
+    color: white;
+    display: block;
+    height: 140vh;
+    position: absolute;
+    justify-content: right;
+    left: 0;
+    width: 100%;
+    background-color: rgb(37, 53, 81);
+ 
+ }

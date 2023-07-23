@@ -1,0 +1,76 @@
+.Header7{
+    margin-top: 5vh;
+    text-align: left;
+    color: white;
+    display: block;
+    border: solid;
+    border-color: black;
+    height: 100%;
+    position: absolute;
+    justify-content: right;
+    left: 0;
+    width: 100%;
+    background-color: rgb(37, 53, 81);
+ 
+ }
+ 
+ .Header8{
+ 
+    text-align: left;
+    border: solid;
+    border-color: black;
+    color: white;
+    display: block;
+    height: 180vh;
+    position: absolute;
+    justify-content: right;
+    left: 0;
+    width: 100%;
+    background-color: rgb(37, 53, 81);
+ 
+ }
+
+ .elem-header8{
+
+ }
+
+ .header-text-1{
+    padding-left: 22%;
+
+ } 
+ 
+ .header-text-2{
+    padding-left: 72%;
+    transform: translate(-20vh,20vh);
+
+ } 
+ .header-text-3{
+    padding-left: 22%;
+
+
+ } 
+ .header-text-4{
+
+    padding-left: 72%;
+
+ }
+
+
+ 
+ .Header9{
+ 
+    margin-top: 156vh;
+    text-align: left;
+    color: white;
+    display: block;
+    height: 80vh;
+    position: absolute;
+    border: solid;
+    border-color: black;
+    justify-content: right;
+    left: 0;
+    width: 100%;
+    background-color: rgb(37, 53, 81);
+ 
+     
+ }

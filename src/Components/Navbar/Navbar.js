@@ -1,27 +1,24 @@
-import React from 'react';
-import '../../css/Navbar.css';
+import React from 'react'
+import'./Navbar.css' ;
 
 const Navbar = () =>{
+
     return(
-     <div>
-            <nav className="navbar navbar-expand-lg bg-light" id="Nav">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="/"><h2>TECH FUTURE</h2></a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-        <a className="nav-link" aria-current="page" href="/">Home</a>
-        <a className="nav-link" href="/outlook">Job Outlook</a>
-        <a className="nav-link" href="/skill">Skills</a>
-        <a className="nav-link" href="/about">About</a>
-      </div>
-    </div>
-  </div>
-</nav>
-     </div>
-    )
-}
+        <div className= "Nav">
+            <ul>
+            <li><a href="/" className= "list">Home</a></li>
+            <li><a href="/Services" className= "list">Services</a></li>
+            <li><a href="/About" className= "list">About</a></li>
+            <li><a href="/Contact" className= "list">Contact</a></li>
+            <li><a href="/Links" className= "list">Links</a></li>
+            <li href="/More" className= "list"><button className="button"><span>More</span></button></li>
+
+            </ul>
+
+        </div>
+        
+    );
+};
+
 
 export default Navbar;
