@@ -1,38 +1,41 @@
 .Header7{
-    margin-top: 5vh;
+    background-image: url("../Images/dribbble.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: left;
     color: white;
     display: block;
     border: solid;
     border-color: black;
-    height: 100%;
+    height: auto;
     position: absolute;
     justify-content: right;
     left: 0;
     width: 100%;
-    background-color: rgb(37, 53, 81);
+    background-color: rgb(126, 126, 126);
+    box-shadow: inset 0  30px 20px 0 rgba(0,0,0,0.75);
  
  }
  
- .Header8{
+ /* .Header8{
  
     text-align: left;
     border: solid;
     border-color: black;
     color: white;
     display: block;
-    height: 180vh;
+    height: 30vh;
     position: absolute;
     justify-content: right;
     left: 0;
     width: 100%;
-    background-color: rgb(37, 53, 81);
+    background-color: rgb(77, 77, 77);
  
- }
+ } */
 
- .elem-header8{
+ /* .elem-header8{
 
- }
+ } */
 
  .header-text-1{
     padding-left: 22%;
@@ -56,21 +59,17 @@
  }
 
 
- 
- .Header9{
- 
-    margin-top: 156vh;
+ .Header9 {
     text-align: left;
+    margin: 0;
     color: white;
-    display: block;
     height: 80vh;
-    position: absolute;
-    border: solid;
-    border-color: black;
     justify-content: right;
-    left: 0;
+    display: block;
+    position: relative;
     width: 100%;
-    background-color: rgb(37, 53, 81);
+    background-color: rgb(31, 31, 31);
+    box-shadow: -1px -10px 10px 10px rgba(0,0,0,0.75);
  
      
  }

@@ -1,4 +1,6 @@
-import React from 'react';
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './Homepage.css';
@@ -6,7 +8,7 @@ import './Homepage.css';
 export default function Carousel1() {
   return (
     <div  className= "car" style={{ display: 'block', width: "75%",}}>
-      <Carousel>
+      <Carousel data-aos="fade-up">
         <Carousel.Item interval={2000}>
           <img 
             className="d-block w-100"

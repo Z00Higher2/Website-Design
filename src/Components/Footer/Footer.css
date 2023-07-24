@@ -1,9 +1,12 @@
 footer {
     position: fixed;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     bottom: 0;
+    color: white;
     left: 0;
     right: 0;
     padding: 8px;
     text-align: center;
+    box-shadow: -1px -10px 10px 10px rgba(0,0,0,0.75);
+
   }

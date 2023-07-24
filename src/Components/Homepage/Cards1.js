@@ -1,5 +1,7 @@
 import Card from "react-bootstrap/Card";
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './Homepage.css';
 import List1 from './List1.js';
 import List2 from './List2.js';
@@ -8,7 +10,7 @@ import List3 from './List3.js';
 export default function Cards1() {
   return (
     <>
-      <Card className="cards" style={{ width: 580, height: 750, margin: 20, border: "solid" }}>
+      <Card data-aos="fade-up" className="cards" style={{ width: 580, height: 750, margin: 20, border: "solid" }}>
         <Card.Body>
           <Card.Title style={{ color: "black" }}><h1 className="header2" data-aos="fade-up">BASIC SERVICE</h1></Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -22,7 +24,7 @@ export default function Cards1() {
           <Card.Link href="#"> <button data-aos="fade-up" className="button2" style={{ color: "black" , background: "white", border: "solid"}}><span className = "btn-span">Learn More</span></button></Card.Link>
         </Card.Body>
        </Card>
-       <Card className="cards" style={{ width: 580, background: "#5A5A5A",margin: 20, border: "solid"  }}>
+       <Card data-aos="fade-up" className="cards" style={{ width: 580, background: "#5A5A5A",margin: 20, border: "solid"  }}>
         <Card.Body>
           <Card.Title style={{ color: "silver" }}><h1 className="header3"data-aos="fade-up">INTERMEDIATE SERVICE</h1>  
             </Card.Title>
@@ -36,7 +38,7 @@ export default function Cards1() {
         </Card.Body>
         </Card>
 
-        <Card className="cards" style={{ width: 580, background: "black", margin: 20, border: "solid"}}>
+        <Card data-aos="fade-up" className="cards" style={{ width: 580, background: "black", margin: 20, border: "solid"}}>
 
         <Card.Body>
           <Card.Title style={{ color: "white" }}><h1 className="header4" data-aos="fade-up">ADVANCED SERVICE</h1></Card.Title>

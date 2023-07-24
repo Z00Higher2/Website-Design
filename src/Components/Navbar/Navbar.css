@@ -1,11 +1,16 @@
 .Nav{
-    margin-top:0;
+    border-top: solid white;
+    border-bottom: solid white;
+    width: 100%;
+    margin-top: 0;
     padding:0;
     display: flex;
+    height: 14vh;
     justify-content:center;
     align-items:center;
-    background:#ffffff;
-  }
+    background:#000000;
+    position: relative;
+}
   
   ul{
     margin:0;
@@ -14,19 +19,22 @@
   }
   
   ul li{
+    transform: translate(-110px,-15px);
+    background-color: black;
     list-style:none;
     margin:0 20px;
     transition:0.5s;
   }
   
   ul li a{
+    background-color: black;
     display: inline-block;
     position: relative;
     text-decoration:none;
     padding-top: 53px;
     font-size: 20px;
     font-weight: bold;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     transition:0.5s;
   }
   
@@ -39,7 +47,7 @@
     transform:scale(1);
     opacity:1;
     text-decoration:none;
-    color:rgb(54, 54, 54);
+    color:rgb(255, 255, 255);
   }
   
   ul li a:before{
@@ -66,7 +74,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #030303;
+    background-color: #ffffff;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -79,9 +87,9 @@
 
   .button {
     border-radius: 4px;
-    background-color: #ffffff;
+    background-color: #000000;
     border: none;
-    color: #000000;
+    color: #fafafa;
     text-align: center;
     font-size: 20px;
     padding-right: 30px;
@@ -116,3 +124,10 @@
     opacity: 1;
     right: 1;
   }
+
+.picture-1{
+    
+    transform: translate(-515px, 0px);
+    width: 175px;
+    height: 125px;
+}

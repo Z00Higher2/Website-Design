@@ -1,12 +1,8 @@
-
-
-
 .Header1{
     background-image: url("../Images/Desing.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-   margin-top: 5vh;
    position: relative;
    text-align: left;
    color: rgb(0, 0, 0);
@@ -18,7 +14,7 @@
    width: 100%;
    background-color: rgb(192, 192, 192);
    padding-left: 35%;
-   box-shadow: -1px 1px 5px 10px rgba(0,0,0,0.75);
+   box-shadow: inset 0  30px 20px 0 rgba(0,0,0,0.75);
 }
 
 .Heading1-1{
@@ -43,11 +39,12 @@ h1, h2, p, div{
     background-size: auto;
     background-attachment: fixed;
    border: solid;
+   position: relative;
    border-color: rgb(87, 87, 87);
    width: 100%;
    background-color: rgb(87, 87, 87);
    height: 80vh;
-   box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.75);   
+   box-shadow: -1px -10px 10px 10px rgba(0,0,0,0.75);
 }
 
 .img1{
