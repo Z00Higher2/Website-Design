@@ -1,67 +1,22 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Style inputs */
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #000000;
-    color: white;
-  }
-  
-  /* Style the container/contact section */
-  .container {
-    background-color: silver;
-    position: absolute;
-    transform: translate(0, -173px);
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    height: 60vh;
-  }
-  
-  /* Create two columns that float next to eachother */
-  .column {
-    float: left;
-    background-color: silver;
-    width: 25%;
-    padding: 20px;
-  }
-
-  .row{
-      background-color: silver;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
-.Contact{
-    background-color: silver;
+.Container1{
+    height: 59vh;
+    box-shadow: -1px -10px 10px 10px rgba(0,0,0,0.75);
+    position: relative;
+    margin: 0;
+    transform: translate(0px, -50px);
 }
+
+
+.Container2{
+    background-image: url("../Images/Screenshot\ 2023-07-26\ 113435.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 75vh;
+    background-color: rgb(59, 59, 59);
+    box-shadow: inset 0  30px 20px 0 rgba(0,0,0,0.75);
+
+    
+}
+

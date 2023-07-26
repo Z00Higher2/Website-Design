@@ -19,7 +19,7 @@ const Navbar = () =>{
             <li><a data-aos="fade-up" href="/About" className= "list">About</a></li>
             <li><a data-aos="fade-up" href="/Contact" className= "list">Contact</a></li>
             <li><a data-aos="fade-up" href="/Links" className= "list">Links</a></li>
-            <li href="/More" className= "list"><button className="button"><span>More</span></button></li>
+            <li className= "list"><button className="button"><span>More</span></button></li>
 
             </ul>
 

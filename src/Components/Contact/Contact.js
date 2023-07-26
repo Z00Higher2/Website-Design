@@ -1,42 +1,70 @@
 import React,{useEffect} from "react";
 import AOS from 'aos';
-import 'aos/dist/aos.css';import './Contact.css'
+import 'aos/dist/aos.css';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './Contact.css'
 
 const Contact = () =>{
     useEffect(() => {
         AOS.init();
-      }, [])
+      }, []) 
 
-    return(
-        <div>
-            <div className="container">
-                <div className= "Contact">
-                    <h2 data-aos="fade-up">Contact Us</h2>
-                    <p data-aos="fade-up">Swing by for a cup of coffee, or leave us a message:</p>
-                </div>
-                <div className="row">
-                    <div className="column">
-                    <form action="/action_page.php">
-                        <label for="fname">First Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
-                        <label for="lname">Last Name</label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
-                        <label for="country">Country</label>
-                        <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                        </select>
-                        <label for="subject">Subject</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-                        <input type="submit" value="Submit"/>
-                    </form>
-                    </div>
-                </div>
-            </div>
+      const [formStatus, setFormStatus] = React.useState('Send')
+  const onSubmit = (e) => {
+    e.preventDefault()
+    setFormStatus('Submitting...')
+    const { name, email, message } = e.target.elements
+    let conFom = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    }
+    console.log(conFom)
+  }
+  return (
+    <div className="Contact-pg">
+        <div className="Container2">
         </div>
-    )
+
+    <div className="Container1"> 
+    <div className="container mt-5">
+      <h2 className="mb-3">React Contact Form Component Example</h2>
+      <form onSubmit={onSubmit}>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="name">
+            Name
+          </label>
+          <input className="form-control" type="text" id="name" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="email">
+            Email
+          </label>
+          <input className="form-control" type="email" id="email" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label" htmlFor="message">
+            Message
+          </label>
+          <textarea className="form-control" id="message" required />
+        </div>
+        <button className="btn btn-danger" type="submit">
+          {formStatus}
+        </button>
+      </form>
+    </div>
+    </div>
+   
+    </div>
+  )
+    
 }
+
+
+
+
+
+
 
 
 
